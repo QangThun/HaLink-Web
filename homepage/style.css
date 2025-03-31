@@ -147,7 +147,7 @@ body {
 .banner-button-text {
     width: 170px;
     height: 50px;
-    border-radius: 20px;
+    border-radius: 25px;
     text-transform: uppercase;
     font-size: 15px;
     color: aliceblue;
@@ -217,15 +217,17 @@ body {
 .services-text {
     border: 1px solid #ffffff;
     border-radius: 20px;
-    box-shadow: 1px 1px 1px rgba(232, 229, 229, 0.366);
+    box-shadow: 1px 1px 1px rgba(232, 229, 229, 0.597);
     background-color: white;
+    cursor: pointer;
+}
+
+.services-text:hover {
+    transition: 0.5s ease-in-out 0.5s;
+    transform: translateY(-20px);
 }
 
 .services-content-left {
-    width: 35%;
-}
-
-.services-content-right {
     width: 35%;
 }
 
@@ -279,6 +281,11 @@ body {
 .services-paragraph {
     font-size: 18px;
     line-height: 1.5;
+    cursor: pointer;
+}
+
+.services-paragraph :hover {
+    color: #1c1c1ce5;
 }
 
 /* select */
@@ -563,6 +570,12 @@ body {
     line-height: 1.5;
 }
 
+.nav-item-sub:hover {
+    transform: translateX(8px);
+    transition: linear 0.3s 0.1s;
+    cursor: pointer;
+}
+
 .footer-introduce {
     display: flex;
     margin-top: 40px;
@@ -581,8 +594,8 @@ body {
 }
 
 .copyright {
-
     display: flex;
+    max-height: 50px;
 }
 
 .copyright-text {
@@ -591,7 +604,7 @@ body {
     font-size: 18px;
     padding-left: 120px;
     background-color: rgb(122, 220, 180);
-    padding-top: 20px;
+    padding-top: 15px;
 }
 
 .copyright-icon {

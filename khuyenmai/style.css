@@ -205,12 +205,12 @@ hr {
 
 .content-nav-tittle-news {
     color: #ff7f00;
-    font-size: 24px;
+    font-size: 25px;
 }
 
 .nav-item-sub-news {
     color: inherit;
-    font-size: 17px;
+    font-size: 18.5px;
     margin-top: 8px;
     line-height: 1.5;
     display: flex;
